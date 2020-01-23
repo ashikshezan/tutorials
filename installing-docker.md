@@ -30,9 +30,11 @@ This is great for testing; let's say you have thousands of tests that need to co
 *(-Collected from stackoverflow [here](https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine)*)
 
 # Installing Docker in Linux Mint 19.3 Cinnamon
+Docker Engine is available in Community Edition (CE) and Enterprise Edition (EE). In this guide, we will do the installation of Docker Community Edition on Linux Mint 19.3 using below steps.
 
+## Uninstall old versions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjI2ODgyMiwxMTgxMzM0MDYsLTEzNj
-UwMTM3ODEsMTI0Njc2MzQ5NiwzMTUzNzI1MjAsLTIwODg3NDY2
-MTJdfQ==
+eyJoaXN0b3J5IjpbMTc0ODAwMzUxNiwxNjE2MjY4ODIyLDExOD
+EzMzQwNiwtMTM2NTAxMzc4MSwxMjQ2NzYzNDk2LDMxNTM3MjUy
+MCwtMjA4ODc0NjYxMl19
 -->
