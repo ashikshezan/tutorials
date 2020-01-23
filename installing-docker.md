@@ -1,4 +1,5 @@
 # Docker 
+
 I am no expert on docker, I only install it to run **Splash**  to run **Javascript** driven website for scrape its content with **Scrapy**.  So from various search result on internet, here are some information regarding **docker** -
 	
 
@@ -31,7 +32,7 @@ This is great for testing; let's say you have thousands of tests that need to co
 # Installing Docker in Linux Mint 19.3 Cinnamon
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDI2MTkyOCwxMTgxMzM0MDYsLTEzNj
+eyJoaXN0b3J5IjpbMTYxNjI2ODgyMiwxMTgxMzM0MDYsLTEzNj
 UwMTM3ODEsMTI0Njc2MzQ5NiwzMTUzNzI1MjAsLTIwODg3NDY2
 MTJdfQ==
 -->
