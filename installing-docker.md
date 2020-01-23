@@ -5,8 +5,6 @@ I am no expert on docker, I only install it to run **Splash**  to run **Javascri
 > **Docker** is basically a container engine which uses the Linux Kernel features like namespaces and control groups to create containers on top of an operating system and automates application deployment on the container. **Docker** uses Copy-on-write union file system for its backend storage
 
 # Docker != Virtual Environment 
-@asd
-
 Docker originally used  [LinuX Containers](https://linuxcontainers.org/lxc/)  (LXC), but later switched to  [runC](https://github.com/opencontainers/runc)  (formerly known as  **libcontainer**), which runs in the same operating system as its host. This allows it to share a lot of the host operating system resources. Also, it uses a layered filesystem ([AuFS](http://aufs.sourceforge.net/)) and manages networking.
 
 AuFS is a layered file system, so you can have a read only part and a write part which are merged together. One could have the common parts of the operating system as read only (and shared amongst all of your containers) and then give each container its own mount for writing.
@@ -27,9 +25,11 @@ Deploying a consistent production environment is easier said than done. Even if 
 
 Docker gives you the ability to snapshot the OS into a shared image, and makes it easy to deploy on other Docker hosts. Locally, dev, qa, prod, etc.: all the same image. Sure you can do this with other tools, but not nearly as easily or fast.
 
-This is great for testing; let's say you have thousands of tests that need to connect to a database, and each test needs a pristine copy of the database and will make changes to the data. The classic approach to this is to reset the database after every test either with custom code or with tools like  [Flyway](https://flywaydb.org/)  - this can be very time-consuming and means that tests must be run serially. However, with Docker you could create an image of your database and run up one instance per test, and then run all the tests in parallel since you know they will all be running against the same snapshot of the database. Since the tests are running in parallel and in Docker containers they could run all on the same box at the same time and should finish much faster. Try doing that with a full VM.
+This is great for testing; let's say you have thousands of tests that need to connect to a database, and each test needs a pristine copy of the database and will make changes to the data. The classic approach to this is to reset the database after every test either with custom code or with tools like  [Flyway](https://flywaydb.org/)  - this can be very time-consuming and means that tests must be run serially. However, with Docker you could create an image of your database and run up one instance per test, and then run all the tests in parallel since you know they will all be running against the same snapshot of the database. Since the tests are running in parallel and in Docker containers they could run all on the same box at the same time and should finish much faster. Try doing that with a full VM. 
+
+-Collected 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDYzMDgwNjUsMTE4MTMzNDA2LC0xMz
-Y1MDEzNzgxLDEyNDY3NjM0OTYsMzE1MzcyNTIwLC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbMTgwMTk2ODg4NSwxMTgxMzM0MDYsLTEzNj
+UwMTM3ODEsMTI0Njc2MzQ5NiwzMTUzNzI1MjAsLTIwODg3NDY2
+MTJdfQ==
 -->
