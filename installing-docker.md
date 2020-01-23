@@ -72,11 +72,14 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 ```
 Update the repository:
+```
+sudo apt-get update
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTc1NjM3MzYsLTEwNTUzNDI3MTksLT
-IwNTc2NzkzNjIsNjQwMDE5OTE2LDE2MTYyNjg4MjIsMTE4MTMz
-NDA2LC0xMzY1MDEzNzgxLDEyNDY3NjM0OTYsMzE1MzcyNTIwLC
-0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMzMwNjI2NTY0LC0xMDU1MzQyNzE5LC0yMD
+U3Njc5MzYyLDY0MDAxOTkxNiwxNjE2MjY4ODIyLDExODEzMzQw
+NiwtMTM2NTAxMzc4MSwxMjQ2NzYzNDk2LDMxNTM3MjUyMCwtMj
+A4ODc0NjYxMl19
 -->
