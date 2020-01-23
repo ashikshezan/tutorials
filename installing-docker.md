@@ -48,7 +48,6 @@ sub   rsa4096 2017-02-22 [S]
 Use the following command to set up the **stable** repository:
 ```
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(. /etc/os-release; echo "$UBUNTU_CODENAME") stable"
-
 ```
 Update the repository:
 ```
@@ -73,7 +72,7 @@ Run the container:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzMxMDU0OCwtOTAwNzk2NDIwLC0yNz
+eyJoaXN0b3J5IjpbMTIxOTIwNDI1MCwtOTAwNzk2NDIwLC0yNz
 I3NDYwNjAsMzMwNjI2NTY0LC0xMDU1MzQyNzE5LC0yMDU3Njc5
 MzYyLDY0MDAxOTkxNiwxNjE2MjY4ODIyLDExODEzMzQwNiwtMT
 M2NTAxMzc4MSwxMjQ2NzYzNDk2LDMxNTM3MjUyMCwtMjA4ODc0
