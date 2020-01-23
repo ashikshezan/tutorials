@@ -80,9 +80,11 @@ Install Docker:
 sudo apt-get -y  install docker-ce docker-compose
 ```
 
+# Install Splash using Docker
+	asdasddaskd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTI2MjUxOSwzMzA2MjY1NjQsLTEwNT
-UzNDI3MTksLTIwNTc2NzkzNjIsNjQwMDE5OTE2LDE2MTYyNjg4
-MjIsMTE4MTMzNDA2LC0xMzY1MDEzNzgxLDEyNDY3NjM0OTYsMz
-E1MzcyNTIwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE2NjE1MDcwMjEsMzMwNjI2NTY0LC0xMD
+U1MzQyNzE5LC0yMDU3Njc5MzYyLDY0MDAxOTkxNiwxNjE2MjY4
+ODIyLDExODEzMzQwNiwtMTM2NTAxMzc4MSwxMjQ2NzYzNDk2LD
+MxNTM3MjUyMCwtMjA4ODc0NjYxMl19
 -->
