@@ -8,6 +8,8 @@ I am no expert on docker, I only install it to run **Splash**  to run **Javascri
 # Docker != Virtual Environment 
 Docker originally used  [LinuX Containers](https://linuxcontainers.org/lxc/)  (LXC), but later switched to  [runC](https://github.com/opencontainers/runc)  (formerly known as  **libcontainer**), which runs in the same operating system as its host. This allows it to share a lot of the host operating system resources. Also, it uses a layered filesystem ([AuFS](http://aufs.sourceforge.net/)) and manages networking.
 
+
+
 AuFS is a layered file system, so you can have a read only part and a write part which are merged together. One could have the common parts of the operating system as read only (and shared amongst all of your containers) and then give each container its own mount for writing.
 
 So, let's say you have a 1 GB container image; if you wanted to use a full VM, you would need to have 1 GB x number of VMs you want. With Docker and AuFS you can share the bulk of the 1 GB between all the containers and if you have 1000 containers you still might only have a little over 1 GB of space for the containers OS (assuming they are all running the same OS image).
@@ -89,8 +91,8 @@ Run the container:
 
 	sudo docker run -it -p 8050:8050 --rm scrapinghub/splash
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mjc0NjA2MCwzMzA2MjY1NjQsLTEwNT
-UzNDI3MTksLTIwNTc2NzkzNjIsNjQwMDE5OTE2LDE2MTYyNjg4
-MjIsMTE4MTMzNDA2LC0xMzY1MDEzNzgxLDEyNDY3NjM0OTYsMz
-E1MzcyNTIwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTE4NzQyMzQ0OCwtMjcyNzQ2MDYwLDMzMD
+YyNjU2NCwtMTA1NTM0MjcxOSwtMjA1NzY3OTM2Miw2NDAwMTk5
+MTYsMTYxNjI2ODgyMiwxMTgxMzM0MDYsLTEzNjUwMTM3ODEsMT
+I0Njc2MzQ5NiwzMTUzNzI1MjAsLTIwODg3NDY2MTJdfQ==
 -->
