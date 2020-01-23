@@ -10,13 +10,12 @@ Docker originally used  [LinuX Containers](https://linuxcontainers.org/lxc/)  (L
 
 
 
+
+
 <details>
+  <summary>Click to expand!</summary>
 
-  <summary>
 
-Click to expand!
-
-</summary>
 
   
   ## Heading
@@ -24,8 +23,8 @@ Click to expand!
   2. list
      * With some
      * Sub bullets
-     * 
 </details>
+
 
 
 
@@ -110,8 +109,8 @@ Run the container:
 
 	sudo docker run -it -p 8050:8050 --rm scrapinghub/splash
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDAyMjA4MywtMjcyNzQ2MDYwLDMzMD
-YyNjU2NCwtMTA1NTM0MjcxOSwtMjA1NzY3OTM2Miw2NDAwMTk5
-MTYsMTYxNjI2ODgyMiwxMTgxMzM0MDYsLTEzNjUwMTM3ODEsMT
-I0Njc2MzQ5NiwzMTUzNzI1MjAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE3NTE0NjMwMjMsLTI3Mjc0NjA2MCwzMz
+A2MjY1NjQsLTEwNTUzNDI3MTksLTIwNTc2NzkzNjIsNjQwMDE5
+OTE2LDE2MTYyNjg4MjIsMTE4MTMzNDA2LC0xMzY1MDEzNzgxLD
+EyNDY3NjM0OTYsMzE1MzcyNTIwLC0yMDg4NzQ2NjEyXX0=
 -->
