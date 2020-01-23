@@ -34,13 +34,15 @@ Docker Engine is available in Community Edition (CE) and Enterprise Edition (EE)
 
 ### Uninstall old versions
 Older versions of Docker were called `docker`, `docker.io`, or `docker-engine`. If these are installed, uninstall them:
-
 ```
 sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
-
+#### SET UP THE REPOSITORY
+```
+sudo apt-get update
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwMDE5OTE2LDE2MTYyNjg4MjIsMTE4MT
-MzNDA2LC0xMzY1MDEzNzgxLDEyNDY3NjM0OTYsMzE1MzcyNTIw
-LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTgwNTc1MDQ3NCw2NDAwMTk5MTYsMTYxNj
+I2ODgyMiwxMTgxMzM0MDYsLTEzNjUwMTM3ODEsMTI0Njc2MzQ5
+NiwzMTUzNzI1MjAsLTIwODg3NDY2MTJdfQ==
 -->
