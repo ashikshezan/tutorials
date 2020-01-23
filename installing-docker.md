@@ -54,8 +54,22 @@ Add Docker’s official GPG key:
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 ```
+Verify that you now have the key with the fingerprint `9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88`, by searching for the last 8 characters of the fingerprint.
+```
+sudo apt-key fingerprint 0EBFCD88
+    
+pub   rsa4096 2017-02-22 [SCEA]
+      9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+uid           [ unknown] Docker Release (CE deb) <docker@docker.com>
+sub   rsa4096 2017-02-22 [S]
+```
+
+
+
+Use the following command to set up the **stable** repository:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTc1MTE1LDY0MDAxOTkxNiwxNjE2Mj
-Y4ODIyLDExODEzMzQwNiwtMTM2NTAxMzc4MSwxMjQ2NzYzNDk2
-LDMxNTM3MjUyMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTIwNTc2NzkzNjIsNjQwMDE5OTE2LDE2MT
+YyNjg4MjIsMTE4MTMzNDA2LC0xMzY1MDEzNzgxLDEyNDY3NjM0
+OTYsMzE1MzcyNTIwLC0yMDg4NzQ2NjEyXX0=
 -->
