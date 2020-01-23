@@ -81,13 +81,15 @@ sudo apt-get -y  install docker-ce docker-compose
 ```
 
 # Install Splash using Docker
+Pull the image:
+
 	sudo docker pull scrapinghub/splash
 
 Run the container:
 
 	sudo docker run -it -p 8050:8050 --rm scrapinghub/splash
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTUwMjYzMSwzMzA2MjY1NjQsLTEwNT
+eyJoaXN0b3J5IjpbLTI3Mjc0NjA2MCwzMzA2MjY1NjQsLTEwNT
 UzNDI3MTksLTIwNTc2NzkzNjIsNjQwMDE5OTE2LDE2MTYyNjg4
 MjIsMTE4MTMzNDA2LC0xMzY1MDEzNzgxLDEyNDY3NjM0OTYsMz
 E1MzcyNTIwLC0yMDg4NzQ2NjEyXX0=
