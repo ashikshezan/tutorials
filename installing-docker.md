@@ -1,4 +1,4 @@
-# Docker
+# Docker 
 I am no expert on docker, I only install it to run **Splash**  to run **Javascript** driven website for scrape its content with **Scrapy**.  So from various search result on internet, here are some information regarding **docker** -
 	
 
@@ -27,8 +27,11 @@ Docker gives you the ability to snapshot the OS into a shared image, and makes i
 
 This is great for testing; let's say you have thousands of tests that need to connect to a database, and each test needs a pristine copy of the database and will make changes to the data. The classic approach to this is to reset the database after every test either with custom code or with tools like  [Flyway](https://flywaydb.org/)  - this can be very time-consuming and means that tests must be run serially. However, with Docker you could create an image of your database and run up one instance per test, and then run all the tests in parallel since you know they will all be running against the same snapshot of the database. Since the tests are running in parallel and in Docker containers they could run all on the same box at the same time and should finish much faster. Try doing that with a full VM.
 *(-Collected from stackoverflow [here](https://stackoverflow.com/questions/16047306/how-is-docker-different-from-a-virtual-machine)*)
+
+# Installing Docker in Linux Mint 19.3 Cinnamon
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODMzNjc3NjUsMTE4MTMzNDA2LC0xMz
-Y1MDEzNzgxLDEyNDY3NjM0OTYsMzE1MzcyNTIwLC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbMTU4NDI2MTkyOCwxMTgxMzM0MDYsLTEzNj
+UwMTM3ODEsMTI0Njc2MzQ5NiwzMTUzNzI1MjAsLTIwODg3NDY2
+MTJdfQ==
 -->
