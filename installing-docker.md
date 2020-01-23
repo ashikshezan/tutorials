@@ -75,11 +75,14 @@ Update the repository:
 ```
 sudo apt-get update
 ```
-
+Install Docker:
+```
+sudo apt-get -y  install docker-ce docker-compose
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwNjI2NTY0LC0xMDU1MzQyNzE5LC0yMD
-U3Njc5MzYyLDY0MDAxOTkxNiwxNjE2MjY4ODIyLDExODEzMzQw
-NiwtMTM2NTAxMzc4MSwxMjQ2NzYzNDk2LDMxNTM3MjUyMCwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTkyNTI2MjUxOSwzMzA2MjY1NjQsLTEwNT
+UzNDI3MTksLTIwNTc2NzkzNjIsNjQwMDE5OTE2LDE2MTYyNjg4
+MjIsMTE4MTMzNDA2LC0xMzY1MDEzNzgxLDEyNDY3NjM0OTYsMz
+E1MzcyNTIwLC0yMDg4NzQ2NjEyXX0=
 -->
