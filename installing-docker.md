@@ -32,9 +32,15 @@ This is great for testing; let's say you have thousands of tests that need to co
 # Installing Docker in Linux Mint 19.3 Cinnamon
 Docker Engine is available in Community Edition (CE) and Enterprise Edition (EE). In this guide, we will do the installation of Docker Community Edition on Linux Mint 19.3 using below steps.
 
-## Uninstall old versions
+### Uninstall old versions
+Older versions of Docker were called `docker`, `docker.io`, or `docker-engine`. If these are installed, uninstall them:
+
+```
+sudo apt-get remove docker docker-engine docker.io containerd runc
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODAwMzUxNiwxNjE2MjY4ODIyLDExOD
-EzMzQwNiwtMTM2NTAxMzc4MSwxMjQ2NzYzNDk2LDMxNTM3MjUy
-MCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNjQwMDE5OTE2LDE2MTYyNjg4MjIsMTE4MT
+MzNDA2LC0xMzY1MDEzNzgxLDEyNDY3NjM0OTYsMzE1MzcyNTIw
+LC0yMDg4NzQ2NjEyXX0=
 -->
