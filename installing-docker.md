@@ -41,8 +41,21 @@ sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
 sudo apt-get update
 ```
+Install packages to allow `apt` to use a repository over HTTPS:
+```
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+```
+Add Docker’s official GPG key:
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTc1MDQ3NCw2NDAwMTk5MTYsMTYxNj
-I2ODgyMiwxMTgxMzM0MDYsLTEzNjUwMTM3ODEsMTI0Njc2MzQ5
-NiwzMTUzNzI1MjAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTUzMTc1MTE1LDY0MDAxOTkxNiwxNjE2Mj
+Y4ODIyLDExODEzMzQwNiwtMTM2NTAxMzc4MSwxMjQ2NzYzNDk2
+LDMxNTM3MjUyMCwtMjA4ODc0NjYxMl19
 -->
