@@ -12,7 +12,11 @@ The command will add the NodeSource signing key to your system, create an apt so
 If you need to install another version, for example 12.x, just change  `setup_12.x`  with  `setup_13.x`
 
 ### Step-2
+Once the NodeSource repository is enabled, install Node.js and npm by typing:
 
+	sudo apt install nodejs
+
+The nodejs package contains both the `node` and `npm` binaries.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDE4NDgyOF19
+eyJoaXN0b3J5IjpbLTcyMjQ0NzcyOF19
 -->
