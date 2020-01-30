@@ -32,12 +32,14 @@ Install development tools to build native add-ons with the command below:
 ### Step-4
 Install package manager ***yarn***
 
+	curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+	echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 	sudo apt-get update && sudo apt-get install yarn
 
 ### Install ReactJS
 
 	sudo npm install -g create-react-app
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY1Mzk3MTAsMTY1MzgzMDMzLC0xMz
-E5MDc1ODQ4LC0xNzYzNjkxODUyXX0=
+eyJoaXN0b3J5IjpbLTMyMTE1NzUzMCwtMTAxNjUzOTcxMCwxNj
+UzODMwMzMsLTEzMTkwNzU4NDgsLTE3NjM2OTE4NTJdfQ==
 -->
