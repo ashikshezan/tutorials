@@ -32,7 +32,8 @@ Install development tools to build native add-ons with the command below:
 ### Step-4
 Install package manager ***yarn***
 
+	sudo apt-get update && sudo apt-get install yarn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjgxMzE4NywtMTMxOTA3NTg0OCwtMT
-c2MzY5MTg1Ml19
+eyJoaXN0b3J5IjpbMTY1MzgzMDMzLC0xMzE5MDc1ODQ4LC0xNz
+YzNjkxODUyXX0=
 -->
