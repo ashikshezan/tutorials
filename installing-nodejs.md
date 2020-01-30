@@ -39,9 +39,11 @@ Install package manager ***yarn***
 ### Install ReactJS
 Don't need to run `!=sudo npm install -g create-react-app` for globally install create-react-app
 
-Always make a new directory and start a react project b
+Always make a new directory and start a react with the latest version by running the command:
+	
+	npx create-react-app app_name
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2MTkyMTgxLC0zMjExNTc1MzAsLTEwMT
-Y1Mzk3MTAsMTY1MzgzMDMzLC0xMzE5MDc1ODQ4LC0xNzYzNjkx
-ODUyXX0=
+eyJoaXN0b3J5IjpbMTc3NTUzNjIwMywtMzIxMTU3NTMwLC0xMD
+E2NTM5NzEwLDE2NTM4MzAzMywtMTMxOTA3NTg0OCwtMTc2MzY5
+MTg1Ml19
 -->
