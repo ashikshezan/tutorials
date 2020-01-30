@@ -22,8 +22,9 @@ The nodejs package contains both the `node` and `npm` binaries.
 Verify that the Node.js and npm were successfully installed by printing their versions:
 
 	node --version
-
 	npm --version
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjcwODEwODFdfQ==
+eyJoaXN0b3J5IjpbLTE3NjM2OTE4NTJdfQ==
 -->
