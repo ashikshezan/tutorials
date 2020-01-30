@@ -49,10 +49,11 @@ Always make a new directory and start a react with the latest version by running
 1. npm update check failed
 
 		
-		sudo chown -R $USER:$(id -gn $USER) /home/sagar/.config
+		sudo chown -R $USER:$(id -gn $USER) /home/your_username/.config
+		sudo npm install -g npm
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyMzk5NjA1LDE3NzU1MzYyMDMsLTMyMT
+eyJoaXN0b3J5IjpbMzk1OTY4MjU5LDE3NzU1MzYyMDMsLTMyMT
 E1NzUzMCwtMTAxNjUzOTcxMCwxNjUzODMwMzMsLTEzMTkwNzU4
 NDgsLTE3NjM2OTE4NTJdfQ==
 -->
