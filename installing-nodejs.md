@@ -37,9 +37,11 @@ Install package manager ***yarn***
 	sudo apt-get update && sudo apt-get install yarn
 
 ### Install ReactJS
-Don't need to run `sudo npm install -g create-react-app` for glo
+Don't need to run `!=sudo npm install -g create-react-app` for globally install create-react-app
+
+Always make a new directory and start a react project b
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1Njk4ODM1LC0zMjExNTc1MzAsLTEwMT
+eyJoaXN0b3J5IjpbNDE2MTkyMTgxLC0zMjExNTc1MzAsLTEwMT
 Y1Mzk3MTAsMTY1MzgzMDMzLC0xMzE5MDc1ODQ4LC0xNzYzNjkx
 ODUyXX0=
 -->
