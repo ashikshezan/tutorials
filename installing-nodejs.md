@@ -33,7 +33,11 @@ Install development tools to build native add-ons with the command below:
 Install package manager ***yarn***
 
 	sudo apt-get update && sudo apt-get install yarn
+
+### Install ReactJS
+
+	sudo npm install -g create-react-app
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzgzMDMzLC0xMzE5MDc1ODQ4LC0xNz
-YzNjkxODUyXX0=
+eyJoaXN0b3J5IjpbLTEwMTY1Mzk3MTAsMTY1MzgzMDMzLC0xMz
+E5MDc1ODQ4LC0xNzYzNjkxODUyXX0=
 -->
