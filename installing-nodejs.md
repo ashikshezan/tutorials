@@ -30,8 +30,9 @@ Install development tools to build native add-ons with the command below:
 	sudo apt-get install gcc g++ make
 
 ### Step-4
-Install package manager 
+Install package manager ***yarn***
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTUxNjQ2MywtMTMxOTA3NTg0OCwtMT
+eyJoaXN0b3J5IjpbMTI0NjgxMzE4NywtMTMxOTA3NTg0OCwtMT
 c2MzY5MTg1Ml19
 -->
