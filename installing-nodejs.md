@@ -17,6 +17,13 @@ Once the NodeSource repository is enabled, install Node.js and npm by typing:
 	sudo apt install nodejs
 
 The nodejs package contains both the `node` and `npm` binaries.
+
+### Step-3
+Verify that the Node.js and npm were successfully installed by printing their versions:
+
+	node --version
+
+	npm --version
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjQ0NzcyOF19
+eyJoaXN0b3J5IjpbLTE3MjcwODEwODFdfQ==
 -->
