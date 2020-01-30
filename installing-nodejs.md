@@ -42,8 +42,13 @@ Don't need to run `!=sudo npm install -g create-react-app` for globally install 
 Always make a new directory and start a react with the latest version by running the command:
 	
 	npx create-react-app app_name
+
+
+### ##Issues
+
+***Np
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTUzNjIwMywtMzIxMTU3NTMwLC0xMD
-E2NTM5NzEwLDE2NTM4MzAzMywtMTMxOTA3NTg0OCwtMTc2MzY5
-MTg1Ml19
+eyJoaXN0b3J5IjpbLTM3MzA1OTYwMiwxNzc1NTM2MjAzLC0zMj
+ExNTc1MzAsLTEwMTY1Mzk3MTAsMTY1MzgzMDMzLC0xMzE5MDc1
+ODQ4LC0xNzYzNjkxODUyXX0=
 -->
