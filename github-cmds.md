@@ -9,8 +9,10 @@
 
 		git remote remove origin
 	or
-		git remote set-url origin git://new.url.here
+	
+		git remote set-url origin New_Url_address
 
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTY4MzQxNSw1NDMzNjQ3OThdfQ==
+eyJoaXN0b3J5IjpbLTE2OTg0NzYxODQsNTQzMzY0Nzk4XX0=
 -->
