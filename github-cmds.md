@@ -20,7 +20,9 @@
 
 		git commit -m 'add a note about the commit'
 
-5. Push the 
+5. Push the remote called origin
+
+		git push -u origin master
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzM1MDc0OTUsNTQzMzY0Nzk4XX0=
+eyJoaXN0b3J5IjpbOTczNDE4MTQ2LDU0MzM2NDc5OF19
 -->
