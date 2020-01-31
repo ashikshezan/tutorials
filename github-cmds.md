@@ -12,7 +12,15 @@
 	
 		git remote set-url origin New_Url_address
 
-3. 
+3. Add to git 
+	
+		git add -A
+
+4. Commit to git 
+
+		git commit -m 'add a note about the commit'
+
+5. Push the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg0NzYxODQsNTQzMzY0Nzk4XX0=
+eyJoaXN0b3J5IjpbLTIwMzM1MDc0OTUsNTQzMzY0Nzk4XX0=
 -->
