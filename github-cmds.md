@@ -5,8 +5,7 @@
 
 		git remote add origin https://github.com/ashikshezan/repo_name.git
 
-
-
+2.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzMzY0Nzk4XX0=
+eyJoaXN0b3J5IjpbMTM4OTQ0Nzc2NCw1NDMzNjQ3OThdfQ==
 -->
