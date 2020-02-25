@@ -23,6 +23,11 @@
 5. Push the remote called origin
 
 		git push -u origin master
+		
+6. Save credential to a git repo in local machine
+		
+		git config credential.helper '!f() { sleep 1; echo "username=${gitname}"; echo "password=${gitpass}"; }; f'
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczNDE4MTQ2LDU0MzM2NDc5OF19
+eyJoaXN0b3J5IjpbLTE5MjY5MjQ4MzMsOTczNDE4MTQ2LDU0Mz
+M2NDc5OF19
 -->
