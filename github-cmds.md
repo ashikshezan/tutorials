@@ -24,12 +24,14 @@
 
 		git push -u origin master
 		
-6. #### Save credential to a git repo in local machine
+6. #### Save credential to a git repository in local machine
 		
 		git config credential.helper '!f() { sleep 1; echo "username=${gitname}"; echo "password=${gitpass}"; }; f'
 	
 	Here `$gitname` and `$gitpass` is environment variables
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDc2NjI2MSw5NzM0MTgxNDYsNTQzMz
-Y0Nzk4XX0=
+eyJoaXN0b3J5IjpbLTEzMTUxMDA5OTMsOTczNDE4MTQ2LDU0Mz
+M2NDc5OF19
 -->
