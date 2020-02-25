@@ -28,8 +28,8 @@
 		
 		git config credential.helper '!f() { sleep 1; echo "username=${gitname}"; echo "password=${gitpass}"; }; f'
 	
-	Here `$`
+	Here `$gitname` and `$gitpass` is environment variables
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTM0NDE4OCw5NzM0MTgxNDYsNTQzMz
+eyJoaXN0b3J5IjpbLTU4MDc2NjI2MSw5NzM0MTgxNDYsNTQzMz
 Y0Nzk4XX0=
 -->
