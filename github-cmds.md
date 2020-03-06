@@ -28,10 +28,11 @@
 		
 		git config credential.helper '!f() { sleep 1; echo "username=${gitname}"; echo "password=${gitpass}"; }; f'
 	
-	Here `$gitname` and `$gitpass` is environment variables. For this purpose sitting up an SSH is more convenient 
+	Here `$gitname` and `$gitpass` is environment variables. 
+	For this purpose sitting up an SSH key is more convenient. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTcyMjY0MjQsLTEzMTUxMDA5OTMsLT
-EzMTUxMDA5OTMsOTczNDE4MTQ2LDU0MzM2NDc5OF19
+eyJoaXN0b3J5IjpbLTMyODE5ODQzNywtMTMxNTEwMDk5MywtMT
+MxNTEwMDk5Myw5NzM0MTgxNDYsNTQzMzY0Nzk4XX0=
 -->
