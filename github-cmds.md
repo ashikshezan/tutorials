@@ -37,15 +37,13 @@
 
 8. #### List of branch 
 
-	For local branch only
+	`git branch -a` - **All** branches.
 
-		 `git branch -a` - **All** branches.
+	`git branch -r` - **Remote** branches only.
 
-`git branch -r` - **Remote** branches only.
-
-`git branch -l` or `git branch` - **Local** branches only.
+	`git branch -l` or `git branch` - **Local** branches only.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc4MjU4OTAsLTQ0MTgyMzc2NiwtMz
-I4MTk4NDM3LC0xMzE1MTAwOTkzLC0xMzE1MTAwOTkzLDk3MzQx
-ODE0Niw1NDMzNjQ3OThdfQ==
+eyJoaXN0b3J5IjpbODk2MzIwMjM2LC00NDE4MjM3NjYsLTMyOD
+E5ODQzNywtMTMxNTEwMDk5MywtMTMxNTEwMDk5Myw5NzM0MTgx
+NDYsNTQzMzY0Nzk4XX0=
 -->
