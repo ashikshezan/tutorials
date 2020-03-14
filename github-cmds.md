@@ -35,8 +35,10 @@
 7. #### Remote Origin information
 		git remote show origin
 
+8. #### List of branch 
+		git checkout 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NDYzMjA1LC0zMjgxOTg0MzcsLTEzMT
-UxMDA5OTMsLTEzMTUxMDA5OTMsOTczNDE4MTQ2LDU0MzM2NDc5
-OF19
+eyJoaXN0b3J5IjpbLTQ0MTgyMzc2NiwtMzI4MTk4NDM3LC0xMz
+E1MTAwOTkzLC0xMzE1MTAwOTkzLDk3MzQxODE0Niw1NDMzNjQ3
+OThdfQ==
 -->
