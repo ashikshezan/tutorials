@@ -32,7 +32,11 @@
 	For this purpose sitting up an SSH key is more convenient. 
 
 
+7. #### Remote Origin information
+
+		 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODE5ODQzNywtMTMxNTEwMDk5MywtMT
-MxNTEwMDk5Myw5NzM0MTgxNDYsNTQzMzY0Nzk4XX0=
+eyJoaXN0b3J5IjpbLTY3NjI3MTE1MCwtMzI4MTk4NDM3LC0xMz
+E1MTAwOTkzLC0xMzE1MTAwOTkzLDk3MzQxODE0Niw1NDMzNjQ3
+OThdfQ==
 -->
