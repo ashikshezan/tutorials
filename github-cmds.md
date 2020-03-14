@@ -48,8 +48,12 @@
 	**Local** branches only
 	
 		git branch -l` or `git branch
+
+9. #### Switch branches 
+
+		git checkout BRANCH_NAME 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyMTc1OTQ5LC00NDE4MjM3NjYsLTMyOD
-E5ODQzNywtMTMxNTEwMDk5MywtMTMxNTEwMDk5Myw5NzM0MTgx
-NDYsNTQzMzY0Nzk4XX0=
+eyJoaXN0b3J5IjpbMjgwMjU4MCwtNDQxODIzNzY2LC0zMjgxOT
+g0MzcsLTEzMTUxMDA5OTMsLTEzMTUxMDA5OTMsOTczNDE4MTQ2
+LDU0MzM2NDc5OF19
 -->
