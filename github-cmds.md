@@ -33,10 +33,10 @@
 
 
 7. #### Remote Origin information
+		git remote show origin
 
-		 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjI3MTE1MCwtMzI4MTk4NDM3LC0xMz
-E1MTAwOTkzLC0xMzE1MTAwOTkzLDk3MzQxODE0Niw1NDMzNjQ3
-OThdfQ==
+eyJoaXN0b3J5IjpbODA5NDYzMjA1LC0zMjgxOTg0MzcsLTEzMT
+UxMDA5OTMsLTEzMTUxMDA5OTMsOTczNDE4MTQ2LDU0MzM2NDc5
+OF19
 -->
