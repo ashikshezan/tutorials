@@ -36,9 +36,16 @@
 		git remote show origin
 
 8. #### List of branch 
-		git checkout 
+
+	For local branch only
+
+		 `git branch -a` - **All** branches.
+
+`git branch -r` - **Remote** branches only.
+
+`git branch -l` or `git branch` - **Local** branches only.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTgyMzc2NiwtMzI4MTk4NDM3LC0xMz
-E1MTAwOTkzLC0xMzE1MTAwOTkzLDk3MzQxODE0Niw1NDMzNjQ3
-OThdfQ==
+eyJoaXN0b3J5IjpbLTEwNDc4MjU4OTAsLTQ0MTgyMzc2NiwtMz
+I4MTk4NDM3LC0xMzE1MTAwOTkzLC0xMzE1MTAwOTkzLDk3MzQx
+ODE0Niw1NDMzNjQ3OThdfQ==
 -->
