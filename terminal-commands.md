@@ -12,8 +12,8 @@
 
 ### Generating ssh key
 
-	ssh-keygen -t rsa
+	ssh-keygen -t rsa -b 4096
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA2MDgzNjgsLTQwNTE4OTgyOSwtND
-A1MTg5ODI5XX0=
+eyJoaXN0b3J5IjpbMTkzMDkzNjc0OCwtMTQxMDYwODM2OCwtND
+A1MTg5ODI5LC00MDUxODk4MjldfQ==
 -->
