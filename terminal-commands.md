@@ -13,8 +13,8 @@
 ### Generating ssh key
 
 	ssh-keygen -t rsa -b 4096
-	
+Then copy the `id_rsa.pub` file and  past it to the github settings
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDk4MjU5NCwxOTMwOTM2NzQ4LC0xND
+eyJoaXN0b3J5IjpbMTQzOTA5MzM0NCwxOTMwOTM2NzQ4LC0xND
 EwNjA4MzY4LC00MDUxODk4MjksLTQwNTE4OTgyOV19
 -->
