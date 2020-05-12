@@ -14,4 +14,34 @@ class TweetAdmin(admin.ModelAdmin):
 
 
 
+### Clean-up or Custom validation of Forms
 
+Validation of `form.py` of a model
+
+```py
+from django import forms
+from .models import Tweet
+
+MAX_CHAR = 240
+class TweetForm(forms.ModelForm):
+    class Meta:
+        model = Tweet
+        fields = ['content'] # list of fields from the model
+
+    def clean_content(self):
+        content = self.cleaned_data.get('content')
+        if len(content) > MAX_CHAR:
+            raise forms.ValidationError('Too long')
+        else:
+            return content
+
+```
+
+
+
+### Some queryset methods
+
+```py
+# latest tweets first
+tweets = Tweet.objects.all().order_by('-posted_date')
+```
