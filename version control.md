@@ -2,7 +2,8 @@
 # Version control your `.dotfiles` with Github Gist
 
 ## Install Gist on your machine
-First of all you ha
+First of all gist have to be installed on your machine to operate it from the CLI. 
+gist is available 
 
 ## Log into Gist with your Github account
 
@@ -72,6 +73,5 @@ gistbash
 
 After you run the command you should be able to see the changes reflected on the gist!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjI0MDg5MDUsLTE2OTk5MzM3NjJdfQ
-==
+eyJoaXN0b3J5IjpbMTM3Nzg3NTUxOCwtMTY5OTkzMzc2Ml19
 -->
