@@ -3,7 +3,7 @@
 
 ## Install Gist on your machine
 First of all gist have to be installed on your machine to operate it from the CLI. 
-gist is available lskdjf 
+gist is available lskdjf gfdgfd
  asd 
 ## Log into Gist with your Github account
 
@@ -73,6 +73,6 @@ gistbash
 
 After you run the command you should be able to see the changes reflected on the gist!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDQ3NTMwMCwxMzc3ODc1NTE4LC0xNj
-k5OTMzNzYyXX0=
+eyJoaXN0b3J5IjpbLTQ4NTUyMDYwLDE2MjA0NzUzMDAsMTM3Nz
+g3NTUxOCwtMTY5OTkzMzc2Ml19
 -->
