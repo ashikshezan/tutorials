@@ -1,5 +1,5 @@
 
-# Version control your `.bashrc` file with Github Gist
+# Version control your `.dotfiles` with Github Gist
 
 ## Install Gist on your machine
 
@@ -86,5 +86,5 @@ gistbash
 
 After you run the command you should be able to see the changes reflected on the gist!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTk5MzM3NjJdfQ==
+eyJoaXN0b3J5IjpbMTg5NjM1ODgxLC0xNjk5OTMzNzYyXX0=
 -->
