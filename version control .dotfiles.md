@@ -1,21 +1,13 @@
-# Version control your `.bashrc` file with Github Gist
+# Version control your `.dotfiles` file with Github Gist
 
 ## Install Gist on your machine
 
-If you have ruby installed ([how to install ruby](https://www.ruby-lang.org/en/documentation/installation/)):
+First of all `gist` CLI package have to be installed in your computer. It will be found on Debian and Arch linux official repos.
 
-```bash
-sudo gem install gist
-```
-‌If you're using Bundler:
-```bash
-   source :rubygems
-   gem 'gist'
-```
-‌For OS X, gist lives in Homebrew
-```bash
-   brew install gist
-```
+For Arch run the following command
+~~~bash
+sudo pacman -S gist 
+~~~
 
 ## Log into Gist with your Github account
 
@@ -23,18 +15,20 @@ If you want to associate your gists with your GitHub account, you need to login
 with gist. It doesn't store your username and password, it just uses them to get
 an OAuth2 token (with the "gist" permission).
 
-    gist --login
-    Obtaining OAuth2 access_token from github.
-    GitHub username: ConradIrwin
-    GitHub password:
-    2-factor auth code:
-    Success! https://github.com/settings/tokens
+```bash
+gist --login
+Requesting login parameters...
+Please sign in at https://github.com/login/device
+  and enter code: ****-****
+```
+Enter the code and you are logged in
 
 This token is stored in `~/.gist` and used for all future gisting. If you need to
 you can revoke it from https://github.com/settings/tokens, or just delete the
 file.  If you need to store tokens for both github.com and a Github Enterprise instance
 you can save your Github Enterprise token in `~/.gist.github.example.com` where
 "github.example.com" is the URL for your Github Enterprise instance.
+
 
 ‌After you've done this, you can still upload gists anonymously with `-a`.
 
@@ -54,10 +48,10 @@ Here `-p` specifies that you want this file to be private, `-o` will open a new 
 
 ## Create an alias for updating your file
 
-Open your `.bashrc` file with the editor of your choice, in this case I'll be using atom.
+Open your `.bashrc` file with the editor of your choice, in this case I'll be using vscode.
 
 ```bashrc
-sudo atom ~/.bashrc
+sudo code ~/.bashrc
 ```
 
 At the end of the file add the following command
