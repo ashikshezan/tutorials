@@ -2,21 +2,7 @@
 # Version control your `.dotfiles` with Github Gist
 
 ## Install Gist on your machine
-
-If you have ruby installed ([how to install ruby](https://www.ruby-lang.org/en/documentation/installation/)):
-
-```bash
-sudo gem install gist
-```
-‌If you're using Bundler:
-```bash
-   source :rubygems
-   gem 'gist'
-```
-‌For OS X, gist lives in Homebrew
-```bash
-   brew install gist
-```
+First of all you ha
 
 ## Log into Gist with your Github account
 
@@ -86,5 +72,6 @@ gistbash
 
 After you run the command you should be able to see the changes reflected on the gist!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjM1ODgxLC0xNjk5OTMzNzYyXX0=
+eyJoaXN0b3J5IjpbLTEwMjI0MDg5MDUsLTE2OTk5MzM3NjJdfQ
+==
 -->
